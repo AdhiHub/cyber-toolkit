@@ -1,27 +1,81 @@
 # ☠️ Cyber Toolkit
 
-A simple cyber security toolkit with:
-- **Password Strength Analyzer** — check how strong your password is
-- **Hash Generator** — generate MD5, SHA1, SHA256 hashes
-- **Text Encryptor** — simple text encryption
+> A simple cyber security toolkit built with HTML, CSS & JavaScript.  
+> 🔗 **Live Demo:** [https://AdhiHub.github.io/cyber-toolkit](https://AdhiHub.github.io/cyber-toolkit)
 
-Built with HTML, CSS & JavaScript.
+---
 
-## 🔧 Tools
+## 🔧 What It Does
 
-### 1. Password Strength Analyzer
-Type a password and see its strength level with visual feedback.
+This toolkit has **3 tools** in one page:
 
-### 2. Hash Generator
-Enter text and generate hash values.
+### 1. 🔐 Password Strength Analyzer
+Type any password and see:
+- **Strength level** — Weak, Fair, Good, Strong, Very Strong (with color bar)
+- **Checklist** — shows what's missing (length, uppercase, numbers, symbols, etc.)
 
-### 3. Text Encryptor
-Encrypt and decrypt text using a simple cipher.
+### 2. 🔢 Hash Generator
+Enter any text and instantly get:
+- **MD5 hash**
+- **SHA1 hash**
+- **SHA256 hash**
 
-## 🚀 Usage
-Open `index.html` in any browser. No installation needed.
+### 3. 🔑 Text Encryptor / Decryptor
+- Encrypt text using a Caesar cipher (shift letters)
+- Decrypt it back
+- You can choose the shift number (1-25)
 
-## 🛠️ Built With
-- HTML5
-- CSS3
-- JavaScript
+---
+
+## 🚀 How to Use
+
+1. Go to the live page: [https://AdhiHub.github.io/cyber-toolkit](https://AdhiHub.github.io/cyber-toolkit)
+2. Click the tabs to switch between tools
+3. Type/paste your input and see results instantly
+
+No installation or download needed — runs in your browser.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** — structure
+- **CSS3** — dark cyber theme with purple gradient
+- **JavaScript** — all the logic (password checking, hashing, encryption)
+
+---
+
+## 📸 Preview
+
+```
+┌─────────────────────────────┐
+│  ☠️ Cyber Toolkit            │
+│                             │
+│  [Password] [Hash] [Encrypt]│
+│                             │
+│  ┌─────────────────────┐    │
+│  │ Type a password...  │    │
+│  └─────────────────────┘    │
+│  ▓▓▓▓▓▓▓▓░░░░░░░░░░░░░    │
+│  Strong ✓                  │
+│                             │
+└─────────────────────────────┘
+```
+
+---
+
+## 📁 Files
+
+| File | What it does |
+|------|-------------|
+| `index.html` | Main page with all 3 tools |
+| `style.css` | Dark cyber theme styling |
+| `script.js` | All logic (password check, hash, encrypt) |
+| `README.md` | This file |
+
+---
+
+## 🙋‍♂️ About
+
+Built by [AdhiHub](https://github.com/AdhiHub)  
+Developer · Game Dev · Cyber Enthusiast
