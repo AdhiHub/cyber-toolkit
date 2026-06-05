@@ -1,4 +1,5 @@
 # ☠️ Cyber Toolkit
+![License](https://img.shields.io/badge/license-MIT-818CF8?style=for-the-badge)
 
 > A simple cyber security toolkit built with HTML, CSS & JavaScript.  
 > 🔗 **Live Demo:** [https://AdhiHub.github.io/cyber-toolkit](https://AdhiHub.github.io/cyber-toolkit)
