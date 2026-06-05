@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Toolkit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>☠️ Cyber Toolkit</h1>
+      <p>Password analyzer · Hash generator · Text encryptor</p>
+    </header>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="password">Password</button>
+      <button class="tab" data-tab="hash">Hash</button>
+      <button class="tab" data-tab="encrypt">Encrypt</button>
+    </div>
+
+    <div class="tab-content active" id="password">
+      <h2>Password Strength Analyzer</h2>
+      <div class="input-group">
+        <input type="password" id="passwordInput" placeholder="Type a password...">
+        <button id="togglePass">👁️</button>
+      </div>
+      <div class="strength-bar"><div id="strengthFill"></div></div>
+      <div id="strengthText" class="result">Type a password to check</div>
+      <div id="details"></div>
+    </div>
+
+    <div class="tab-content" id="hash">
+      <h2>Hash Generator</h2>
+      <div class="input-group">
+        <input type="text" id="hashInput" placeholder="Enter text to hash...">
+      </div>
+      <div class="hash-results">
+        <div><label>MD5</label><code id="md5">-</code></div>
+        <div><label>SHA1</label><code id="sha1">-</code></div>
+        <div><label>SHA256</label><code id="sha256">-</code></div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="encrypt">
+      <h2>Text Encryptor</h2>
+      <div class="input-group">
+        <input type="text" id="encryptInput" placeholder="Enter text...">
+        <input type="number" id="shiftInput" placeholder="Shift (1-25)" min="1" max="25" value="3">
+      </div>
+      <div class="btn-group">
+        <button id="encryptBtn" class="btn">Encrypt</button>
+        <button id="decryptBtn" class="btn">Decrypt</button>
+      </div>
+      <div id="encryptResult" class="result">Result will appear here</div>
+    </div>
+
+    <footer>
+      <p>Built by <a href="https://github.com/AdhiHub">AdhiHub</a></p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
